@@ -1,0 +1,16 @@
+{
+  "animes": [
+    {
+      "id": "mo5c0ajqfbokh",
+      "created_at": "2026-04-19T05:34:46.118Z",
+      "name": "Re:Zero",
+      "description": "Subaru Natsuki, um estudante comum, está voltando para casa após sair de uma loja de conveniência quando, de repente, é transportado para outro mundo. Perdido e confuso em um lugar desconhecido, onde não sabe nem para onde ir, a única pessoa que aparece para ajudá-lo é uma bela garota de cabelos prateados.\nDeterminado a retribuir a ajuda que recebeu e entender esse novo mundo, Subaru decide acompanhar a garota em sua busca por algo importante. Porém, logo ele descobre que esse mundo é muito mais perigoso do que parece — e que a morte pode não ser o fim para ele.",
+      "genre": "Ação, Romance, Fantasia, Aventura, Isekai",
+      "rating": "16",
+      "nsfw": false,
+      "cover_url": "https://myanimelist.net/images/anime/1724/117421l.jpg"
+    }
+  ],
+  "seasons": [],
+  "episodes": []
+}
