@@ -64,11 +64,11 @@
       "id": "19da64323a3wjubt",
       "created_at": "2026-04-19T05:34:46.118Z",
       "name": "Fate/strange Fake",
-      "description": "",
-      "genre": "",
+      "description": "A new Holy Grail War is emerging in Snowfield, Nevada, where mages from around the world summon Servants, heroic spirits drawn from myth and history, to fight on their behalf. However, this war seems to differ from previous ones. The organization behind it appears to have used data from the Fuyuki Grail War for their ritual, resulting in strange happenings. \n\nUnbeknownst to most participants, this budding conflict is actually a fake Grail War. There exists another set of seven true Servants who are summoned to fight in the genuine Holy Grail War. One of these Servants is a powerful Saber-class who saves the life of Ayaka Sajou, his apparent master, after being summoned. \n\nWith hidden agendas and unpredictable forces at play, the line between the fake and true Grail War becomes unclear, turning Snowfield into a dangerous battlefield.",
+      "genre": "Action, Fantasy",
       "rating": "14",
       "nsfw": false,
-      "cover_url": ""
+      "cover_url": "https://myanimelist.net/images/anime/1752/150192l.jpg"
     },
     {
       "id": "19da6432338g0zps",
@@ -3515,7 +3515,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a46d5e8",
-      "title": "EpisÃÂ³dio 1",
+      "title": "The Heroic Spirit Incident",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia801000.us.archive.org/18/items/strangeleg/SP.mp4"
@@ -3525,7 +3525,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 1",
+      "title": "The Heroic Spirit Incident",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/1.mp4"
@@ -3535,7 +3535,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 2",
+      "title": "Ensemble VS Pretense",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/2.mp4"
@@ -3545,7 +3545,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 3",
+      "title": "A Battle without Heroes",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/3.mp4"
@@ -3555,7 +3555,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 4",
+      "title": "The Canon of Demigods",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/4.mp4"
@@ -3565,7 +3565,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 5",
+      "title": "Stars' Banquet",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/5.mp4"
@@ -3575,7 +3575,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 6",
+      "title": "The Wandering King's Rock 'n' Roll",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/6.mp4"
@@ -3585,7 +3585,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 7",
+      "title": "Back from Twilight, the God Is Come",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/7.mp4"
@@ -3595,7 +3595,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 8",
+      "title": "Backstage of a Third-rate Comedy",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/8.mp4"
@@ -3605,7 +3605,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64323a6pzz1m",
-      "title": "EpisÃÂ³dio 9",
+      "title": "The Nightmare Comes With the Dawn of London",
       "description": "",
       "thumbnail_url": "",
       "video_url": "https://ia601000.us.archive.org/18/items/strangeleg/9.mp4"
