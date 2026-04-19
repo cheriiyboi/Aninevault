@@ -184,11 +184,11 @@
       "id": "19da643254dszjob",
       "created_at": "2026-04-19T05:34:46.118Z",
       "name": "Yu Yu Hakusho",
-      "description": "",
-      "genre": "",
+      "description": "One fateful day, Yuusuke Urameshi, a 14-year-old delinquent with a dim future, gets a miraculous chance to turn it all around when he throws himself in front of a moving car to save a young boy. His ultimate sacrifice is so out of character that the authorities of the spirit realm are not yet prepared to let him pass on. Koenma, heir to the throne of the spirit realm, offers Yuusuke an opportunity to regain his life through completion of a series of tasks. With the guidance of the death god Botan, he is to thwart evil presences on Earth as a Spirit Detective.\n\nTo help him on his venture, Yuusuke enlists ex-rival Kazuma Kuwabara, and two demons, Hiei and Kurama, who have criminal pasts. Together, they train and battle against enemies who would threaten humanity's very existence.",
+      "genre": "Action, Supernatural",
       "rating": "14",
       "nsfw": false,
-      "cover_url": ""
+      "cover_url": "https://myanimelist.net/images/anime/1228/111372l.jpg"
     }
   ],
   "seasons": [
@@ -7585,7 +7585,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 1",
+      "title": "Surprised to be Dead",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/1.mp4"
@@ -7595,7 +7595,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 2",
+      "title": "Koenma of the Spirit Realm! A trial Towards Resurrection.",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/2.mp4"
@@ -7605,7 +7605,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 3",
+      "title": "Kuwabara in a Corner! A Man's Oath.",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/3.mp4"
@@ -7615,7 +7615,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 4",
+      "title": "Requirements for Lovers",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/4.mp4"
@@ -7625,7 +7625,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 5",
+      "title": "Yuusuke's Back",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/5.mp4"
@@ -7635,7 +7635,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 6",
+      "title": "The Three Youkai! Hiei, Kurama, Gouki",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/6.mp4"
@@ -7645,7 +7645,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 7",
+      "title": "Gouki and Kurama",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/7.mp4"
@@ -7655,7 +7655,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 8",
+      "title": "The Three Eyes of Hiei",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/8.mp4"
@@ -7665,7 +7665,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 9",
+      "title": "The Search Begins",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/9.mp4"
@@ -7675,7 +7675,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 10",
+      "title": "Kuwabara's Spirit Sword",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/10.mp4"
@@ -7685,7 +7685,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 11",
+      "title": "Hard Fights for Yusuke",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/11.mp4"
@@ -7695,7 +7695,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 12",
+      "title": "Rando Rises, Kuwabara Falls",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/12.mp4"
@@ -7705,7 +7705,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 13",
+      "title": "Yusuke VS. Rando: 99 Attacks",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/13.mp4"
@@ -7715,7 +7715,7 @@
       "number": 14,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 14",
+      "title": "The Beasts of Maze Castle",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/14.mp4"
@@ -7725,7 +7725,7 @@
       "number": 15,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 15",
+      "title": "Beautiful Dance of the Rose! The Elegant Kurama",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/15.mp4"
@@ -7735,7 +7735,7 @@
       "number": 16,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 16",
+      "title": "Byakko, the White Tiger",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/16.mp4"
@@ -7745,7 +7745,7 @@
       "number": 17,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 17",
+      "title": "Byakko's Lair",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/17.mp4"
@@ -7755,7 +7755,7 @@
       "number": 18,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 18",
+      "title": "Seiryu, the Blue Dragon",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/18.mp4"
@@ -7765,7 +7765,7 @@
       "number": 19,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 19",
+      "title": "Suzaku, Leader of the Beasts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/19.mp4"
@@ -7775,7 +7775,7 @@
       "number": 20,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 20",
+      "title": "Seven Ways to Die",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/20.mp4"
@@ -7785,7 +7785,7 @@
       "number": 21,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 21",
+      "title": "Yusuke's Sacrifice",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/21.mp4"
@@ -7795,7 +7795,7 @@
       "number": 22,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 22",
+      "title": "Lamenting Beauty",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/22.mp4"
@@ -7805,7 +7805,7 @@
       "number": 23,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 23",
+      "title": "The Toguro Brothers Gang",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/23.mp4"
@@ -7815,7 +7815,7 @@
       "number": 24,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 24",
+      "title": "The Deadly Triad",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/24.mp4"
@@ -7825,7 +7825,7 @@
       "number": 25,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 25",
+      "title": "Kuwabara's Fight of Love",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/25.mp4"
@@ -7835,7 +7835,7 @@
       "number": 26,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 26",
+      "title": "Toguro Returns",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/26.mp4"
@@ -7845,7 +7845,7 @@
       "number": 27,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 27",
+      "title": "The Dark Tournament Begins",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/27.mp4"
@@ -7855,7 +7855,7 @@
       "number": 28,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 28",
+      "title": "First Fight",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/28.mp4"
@@ -7865,7 +7865,7 @@
       "number": 29,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 29",
+      "title": "Flowers of Blood",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/29.mp4"
@@ -7875,7 +7875,7 @@
       "number": 30,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 30",
+      "title": "Dragon of the Darkness Flame",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/30.mp4"
@@ -7885,7 +7885,7 @@
       "number": 31,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 31",
+      "title": "Stumbling Warrior",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/31.mp4"
@@ -7895,7 +7895,7 @@
       "number": 32,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 32",
+      "title": "Knife-Edge Death Match",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/32.mp4"
@@ -7905,7 +7905,7 @@
       "number": 33,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 33",
+      "title": "A Day in Waiting",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/33.mp4"
@@ -7915,7 +7915,7 @@
       "number": 34,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 34",
+      "title": "Percentage of Victory",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/34.mp4"
@@ -7925,7 +7925,7 @@
       "number": 35,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 35",
+      "title": "Glimpse Beneath the Mask",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/35.mp4"
@@ -7935,7 +7935,7 @@
       "number": 36,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 36",
+      "title": "Ambition Destroyed: A Trial of Light",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/36.mp4"
@@ -7945,7 +7945,7 @@
       "number": 37,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 37",
+      "title": "Master of Disguise",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/37.mp4"
@@ -7955,7 +7955,7 @@
       "number": 38,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 38",
+      "title": "Kurama's Stand",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/38.mp4"
@@ -7965,7 +7965,7 @@
       "number": 39,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 39",
+      "title": "Crushing Revenge",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/39.mp4"
@@ -7975,7 +7975,7 @@
       "number": 40,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 40",
+      "title": "Jin, the Wind Master",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/40.mp4"
@@ -7985,7 +7985,7 @@
       "number": 41,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 41",
+      "title": "Reverse Decisions",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/41.mp4"
@@ -7995,7 +7995,7 @@
       "number": 42,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 42",
+      "title": "A Matter of Love and Death",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/42.mp4"
@@ -8005,7 +8005,7 @@
       "number": 43,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 43",
+      "title": "The Masked Fighter Revealed",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/43.mp4"
@@ -8015,7 +8015,7 @@
       "number": 44,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 44",
+      "title": "Yusuke's Final Test",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/44.mp4"
@@ -8025,7 +8025,7 @@
       "number": 45,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 45",
+      "title": "Hiei Battles On",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/45.mp4"
@@ -8035,7 +8035,7 @@
       "number": 46,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 46",
+      "title": "Many Faces, Many Forms",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/46.mp4"
@@ -8045,7 +8045,7 @@
       "number": 47,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 47",
+      "title": "Legendary Bandit: Yoko Returns",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/47.mp4"
@@ -8055,7 +8055,7 @@
       "number": 48,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 48",
+      "title": "The Cape of No Return",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/48.mp4"
@@ -8065,7 +8065,7 @@
       "number": 49,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 49",
+      "title": "Genkai's Strength",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/49.mp4"
@@ -8075,7 +8075,7 @@
       "number": 50,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 50",
+      "title": "Suzuka's Challenge",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/50.mp4"
@@ -8085,7 +8085,7 @@
       "number": 51,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 51",
+      "title": "Arch-Rivals",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/51.mp4"
@@ -8095,7 +8095,7 @@
       "number": 52,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 52",
+      "title": "The Death of Genkai",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/52.mp4"
@@ -8105,7 +8105,7 @@
       "number": 53,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 53",
+      "title": "Overcoming Grief",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/53.mp4"
@@ -8115,7 +8115,7 @@
       "number": 54,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 54",
+      "title": "The Beginning of the End",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/54.mp4"
@@ -8125,7 +8125,7 @@
       "number": 55,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 55",
+      "title": "The Beast Within",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/55.mp4"
@@ -8135,7 +8135,7 @@
       "number": 56,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 56",
+      "title": "Yoko's Magic",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/56.mp4"
@@ -8145,7 +8145,7 @@
       "number": 57,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 57",
+      "title": "Beneath Bui's Armor",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/57.mp4"
@@ -8155,7 +8155,7 @@
       "number": 58,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 58",
+      "title": "Wielder of the Dragon",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/58.mp4"
@@ -8165,7 +8165,7 @@
       "number": 59,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 59",
+      "title": "The Shadow of Elder Toguro",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/59.mp4"
@@ -8175,7 +8175,7 @@
       "number": 60,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 60",
+      "title": "Sakyo's Proposal",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/60.mp4"
@@ -8185,7 +8185,7 @@
       "number": 61,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 61",
+      "title": "Two Great Rivals",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/61.mp4"
@@ -8195,7 +8195,7 @@
       "number": 62,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 62",
+      "title": "Toguro's True Power",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/62.mp4"
@@ -8205,7 +8205,7 @@
       "number": 63,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 63",
+      "title": "Yusuke And The Supreme Doctrine",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/63.mp4"
@@ -8215,7 +8215,7 @@
       "number": 64,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 64",
+      "title": "Final Battle",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/64.mp4"
@@ -8225,7 +8225,7 @@
       "number": 65,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 65",
+      "title": "The Stadium Explodes",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/65.mp4"
@@ -8235,7 +8235,7 @@
       "number": 66,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 66",
+      "title": "Toguro's Reward",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/66.mp4"
@@ -8245,7 +8245,7 @@
       "number": 67,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 67",
+      "title": "A New Beginning",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/67.mp4"
@@ -8255,7 +8255,7 @@
       "number": 68,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 68",
+      "title": "The Trap Set On Siciyu House",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/68.mp4"
@@ -8265,7 +8265,7 @@
       "number": 69,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 69",
+      "title": "Will Yusuke Be Released From His Prison",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/69.mp4"
@@ -8275,7 +8275,7 @@
       "number": 70,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 70",
+      "title": "Surprising Truth! The Mystery Newly Appeared!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/70.mp4"
@@ -8285,7 +8285,7 @@
       "number": 71,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 71",
+      "title": "The Coming Terror! The Gate Of The Devil World!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/71.mp4"
@@ -8295,7 +8295,7 @@
       "number": 72,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 72",
+      "title": "The Messengers Of The Devil World: Seven Enemies!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/72.mp4"
@@ -8305,7 +8305,7 @@
       "number": 73,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 73",
+      "title": "Quietly Come Closer Wizard Doctor",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/73.mp4"
@@ -8315,7 +8315,7 @@
       "number": 74,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 74",
+      "title": "Destroy The Territory!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/74.mp4"
@@ -8325,7 +8325,7 @@
       "number": 75,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 75",
+      "title": "Seaman: The Trap In The Rain",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/75.mp4"
@@ -8335,7 +8335,7 @@
       "number": 76,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 76",
+      "title": "Kuwabara Comes Back? Awakened Power",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/76.mp4"
@@ -8345,7 +8345,7 @@
       "number": 77,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 77",
+      "title": "The Dark Past Of The Soul World Detective!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/77.mp4"
@@ -8355,7 +8355,7 @@
       "number": 78,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 78",
+      "title": "Attack! Black Angel",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/78.mp4"
@@ -8365,7 +8365,7 @@
       "number": 79,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 79",
+      "title": "Yusuke Enraged To Go! Save Kuwabara!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/79.mp4"
@@ -8375,7 +8375,7 @@
       "number": 80,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 80",
+      "title": "The Target Of Hakiriharame! Death Wrinkle Cross Spot!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/80.mp4"
@@ -8385,7 +8385,7 @@
       "number": 81,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 81",
+      "title": "The Game World In The Cave",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/81.mp4"
@@ -8395,7 +8395,7 @@
       "number": 82,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 82",
+      "title": "Game King, With The Scary Force!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/82.mp4"
@@ -8405,7 +8405,7 @@
       "number": 83,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 83",
+      "title": "The Means Left! The Decision Of Kurama!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/83.mp4"
@@ -8415,7 +8415,7 @@
       "number": 84,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 84",
+      "title": "The Anger Of Kurama! Who Is The Man",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/84.mp4"
@@ -8425,7 +8425,7 @@
       "number": 85,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 85",
+      "title": "The Spy Of The Soul World: Fight With Fate!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/85.mp4"
@@ -8435,7 +8435,7 @@
       "number": 86,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 86",
+      "title": "Yusuke Fight Hard, The Determined Difference",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/86.mp4"
@@ -8445,7 +8445,7 @@
       "number": 87,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 87",
+      "title": "The King Of The Hell Junior Conscious Ring",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/87.mp4"
@@ -8455,7 +8455,7 @@
       "number": 88,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 88",
+      "title": "Sensui: Be Careful With The Moral Light",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/88.mp4"
@@ -8465,7 +8465,7 @@
       "number": 89,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 89",
+      "title": "When Everything Stops!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/89.mp4"
@@ -8475,7 +8475,7 @@
       "number": 90,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 90",
+      "title": "Continued To Fulfill Our Friend's Wish!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/90.mp4"
@@ -8485,7 +8485,7 @@
       "number": 91,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 91",
+      "title": "The Wakening Time! The Fight Continues!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/91.mp4"
@@ -8495,7 +8495,7 @@
       "number": 92,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 92",
+      "title": "The Proof That The Devil Nation Exists",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/92.mp4"
@@ -8505,7 +8505,7 @@
       "number": 93,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 93",
+      "title": "Final Battle! The Final Battle In The Devil World!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/93.mp4"
@@ -8515,7 +8515,7 @@
       "number": 94,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 94",
+      "title": "Over! Run To Tomorrow!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/94.mp4"
@@ -8525,7 +8525,7 @@
       "number": 95,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 95",
+      "title": "The Fate Of Yusuke's Dangerous Relationship!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/95.mp4"
@@ -8535,7 +8535,7 @@
       "number": 96,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 96",
+      "title": "Midnight Visitor: Deep Mystery",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/96.mp4"
@@ -8545,7 +8545,7 @@
       "number": 97,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 97",
+      "title": "Apart :The Way Of Each!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/97.mp4"
@@ -8555,7 +8555,7 @@
       "number": 98,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 98",
+      "title": "Go To The Devil World And Face The Father",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/98.mp4"
@@ -8565,7 +8565,7 @@
       "number": 99,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 99",
+      "title": "Memory Which Can't Be Forgotten! The Matter When Born!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/99.mp4"
@@ -8575,7 +8575,7 @@
       "number": 100,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 100",
+      "title": "See The Light Again - The Secret Of Devil Eye",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/100.mp4"
@@ -8585,7 +8585,7 @@
       "number": 101,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 101",
+      "title": "Thieves Of The Devil World! The Thousand Years Meeting!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/101.mp4"
@@ -8595,7 +8595,7 @@
       "number": 102,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 102",
+      "title": "Devil Fox Change! Hidden Sense Of Killing!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/102.mp4"
@@ -8605,7 +8605,7 @@
       "number": 103,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 103",
+      "title": "The Words Left By Dad: The Old Memories",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/103.mp4"
@@ -8615,7 +8615,7 @@
       "number": 104,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 104",
+      "title": "Accidental Proposition: Change Of Devil World",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/104.mp4"
@@ -8625,7 +8625,7 @@
       "number": 105,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 105",
+      "title": "The Devil Contest! The Beginning Of The Pre-Contest!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/105.mp4"
@@ -8635,7 +8635,7 @@
       "number": 106,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 106",
+      "title": "The Battle Between Father And Son!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/106.mp4"
@@ -8645,7 +8645,7 @@
       "number": 107,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 107",
+      "title": "Fierce Fight! A Man Bets By Dream!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/107.mp4"
@@ -8655,7 +8655,7 @@
       "number": 108,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 108",
+      "title": "Kurama: Farewell With The Past!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/108.mp4"
@@ -8665,7 +8665,7 @@
       "number": 109,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 109",
+      "title": "Big Battle! Hiei And Mukuro!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/109.mp4"
@@ -8675,7 +8675,7 @@
       "number": 110,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 110",
+      "title": "This Is All My Power",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/110.mp4"
@@ -8685,7 +8685,7 @@
       "number": 111,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 111",
+      "title": "The Final Decision",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/111.mp4"
@@ -8695,7 +8695,7 @@
       "number": 112,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643254e00kui",
-      "title": "EpisÃ³dio 112",
+      "title": "Forever Yu Yu Hakusho",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/HakushoDub/112.mp4"
