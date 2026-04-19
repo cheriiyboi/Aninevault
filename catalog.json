@@ -22,5 +22,16 @@
       "year": 2016
     }
   ],
-  "episodes": []
+  "episodes": [
+    {
+      "id": "mo5c2ui3ukca0",
+      "created_at": "2026-04-19T05:36:45.291Z",
+      "season_id": "mo5c0qwhfy2gl",
+      "anime_id": "mo5c0ajqfbokh",
+      "number": 1,
+      "title": "The End of the Beginning and the Beginning of the End",
+      "url": "https://ia600509.us.archive.org/23/items/ZeroS01/1.mp4",
+      "cover_url": null
+    }
+  ]
 }
