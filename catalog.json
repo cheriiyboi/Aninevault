@@ -104,11 +104,11 @@
       "id": "19da64323ff9db1x",
       "created_at": "2026-04-19T05:34:46.118Z",
       "name": "My Hero Academia",
-      "description": "",
-      "genre": "",
+      "description": "The appearance of \"quirks,\" newly discovered super powers, has been steadily increasing over the years, with 80 percent of humanity possessing various abilities from manipulation of elements to shapeshifting. This leaves the remainder of the world completely powerless, and Izuku Midoriya is one such individual.\n\nSince he was a child, the ambitious middle schooler has wanted nothing more than to be a hero. Izuku's unfair fate leaves him admiring heroes and taking notes on them whenever he can. But it seems that his persistence has borne some fruit: Izuku meets the number one hero and his personal idol, All Might. All Might's quirk is a unique ability that can be inherited, and he has chosen Izuku to be his successor!\n\nEnduring many months of grueling training, Izuku enrolls in UA High, a prestigious high school famous for its excellent hero training program, and this year's freshmen look especially promising. With his bizarre but talented classmates and the looming threat of a villainous organization, Izuku will soon learn what it really means to be a hero.",
+      "genre": "Action",
       "rating": "14",
       "nsfw": false,
-      "cover_url": ""
+      "cover_url": "https://myanimelist.net/images/anime/10/78745l.jpg"
     },
     {
       "id": "19da643236exjmj8",
@@ -4355,7 +4355,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/1.mp4"
@@ -4365,7 +4365,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/2.mp4"
@@ -4375,7 +4375,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/3.mp4"
@@ -4385,7 +4385,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/4.mp4"
@@ -4395,7 +4395,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/5.mp4"
@@ -4405,7 +4405,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/6.mp4"
@@ -4415,7 +4415,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/7.mp4"
@@ -4425,7 +4425,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/8.mp4"
@@ -4435,7 +4435,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/9.mp4"
@@ -4445,7 +4445,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/10.mp4"
@@ -4455,7 +4455,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/11.mp4"
@@ -4465,7 +4465,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 12",
+      "title": "All Might",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/12.mp4"
@@ -4475,7 +4475,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432400urj2f",
-      "title": "EpisÃ³dio 13",
+      "title": "In Each of Our Hearts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/bnhas01dub/13.mp4"
@@ -4485,7 +4485,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/1.mp4"
@@ -4495,7 +4495,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/2.mp4"
@@ -4505,7 +4505,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/3.mp4"
@@ -4515,7 +4515,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/4.mp4"
@@ -4525,7 +4525,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/5.mp4"
@@ -4535,7 +4535,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/6.mp4"
@@ -4545,7 +4545,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/7.mp4"
@@ -4555,7 +4555,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/8.mp4"
@@ -4565,7 +4565,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/9.mp4"
@@ -4575,7 +4575,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/10.mp4"
@@ -4585,7 +4585,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/11.mp4"
@@ -4595,7 +4595,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 12",
+      "title": "All Might",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/12.mp4"
@@ -4605,7 +4605,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643240ekeuzz",
-      "title": "EpisÃ³dio 13",
+      "title": "In Each of Our Hearts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS02DUB/13.mp4"
@@ -4735,7 +4735,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/1.mp4"
@@ -4745,7 +4745,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/2.mp4"
@@ -4755,7 +4755,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/3.mp4"
@@ -4765,7 +4765,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/4.mp4"
@@ -4775,7 +4775,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/5.mp4"
@@ -4785,7 +4785,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/6.mp4"
@@ -4795,7 +4795,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/7.mp4"
@@ -4805,7 +4805,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/8.mp4"
@@ -4815,7 +4815,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/9.mp4"
@@ -4825,7 +4825,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/10.mp4"
@@ -4835,7 +4835,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/11.mp4"
@@ -4845,7 +4845,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 12",
+      "title": "All Might",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/12.mp4"
@@ -4855,7 +4855,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324280daeo",
-      "title": "EpisÃ³dio 13",
+      "title": "In Each of Our Hearts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS03DUB/13.mp4"
@@ -4985,7 +4985,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/1.mp4"
@@ -4995,7 +4995,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/2.mp4"
@@ -5005,7 +5005,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/3.mp4"
@@ -5015,7 +5015,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/4.mp4"
@@ -5025,7 +5025,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/5.mp4"
@@ -5035,7 +5035,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/6.mp4"
@@ -5045,7 +5045,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/7.mp4"
@@ -5055,7 +5055,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/8.mp4"
@@ -5065,7 +5065,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/9.mp4"
@@ -5075,7 +5075,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/10.mp4"
@@ -5085,7 +5085,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/11.mp4"
@@ -5095,7 +5095,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 12",
+      "title": "All Might",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/12.mp4"
@@ -5105,7 +5105,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324427em4h",
-      "title": "EpisÃ³dio 13",
+      "title": "In Each of Our Hearts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS04DUB/13.mp4"
@@ -5235,7 +5235,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/1.mp4"
@@ -5245,7 +5245,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/2.mp4"
@@ -5255,7 +5255,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/3.mp4"
@@ -5265,7 +5265,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/4.mp4"
@@ -5275,7 +5275,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/5.mp4"
@@ -5285,7 +5285,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/6.mp4"
@@ -5295,7 +5295,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/7.mp4"
@@ -5305,7 +5305,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/8.mp4"
@@ -5315,7 +5315,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/9.mp4"
@@ -5325,7 +5325,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/10.mp4"
@@ -5335,7 +5335,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/11.mp4"
@@ -5345,7 +5345,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 12",
+      "title": "All Might",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/12.mp4"
@@ -5355,7 +5355,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643245c3s3zf",
-      "title": "EpisÃ³dio 13",
+      "title": "In Each of Our Hearts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS05DUB/13.mp4"
@@ -5485,7 +5485,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/1.mp4"
@@ -5495,7 +5495,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/2.mp4"
@@ -5505,7 +5505,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/3.mp4"
@@ -5515,7 +5515,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/4.mp4"
@@ -5525,7 +5525,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/5.mp4"
@@ -5535,7 +5535,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/6.mp4"
@@ -5545,7 +5545,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/7.mp4"
@@ -5555,7 +5555,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/8.mp4"
@@ -5565,7 +5565,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/9.mp4"
@@ -5575,7 +5575,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/10.mp4"
@@ -5585,7 +5585,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/11.mp4"
@@ -5595,7 +5595,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 12",
+      "title": "All Might",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/12.mp4"
@@ -5605,7 +5605,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324767g85o",
-      "title": "EpisÃ³dio 13",
+      "title": "In Each of Our Hearts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS06DUB/13.mp4"
@@ -5735,7 +5735,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/1.mp4"
@@ -5745,7 +5745,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/2.mp4"
@@ -5755,7 +5755,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/3.mp4"
@@ -5765,7 +5765,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/4.mp4"
@@ -5775,7 +5775,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/5.mp4"
@@ -5785,7 +5785,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/6.mp4"
@@ -5795,7 +5795,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/7.mp4"
@@ -5805,7 +5805,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/8.mp4"
@@ -5815,7 +5815,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/9.mp4"
@@ -5825,7 +5825,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/10.mp4"
@@ -5835,7 +5835,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/11.mp4"
@@ -5845,7 +5845,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 12",
+      "title": "All Might",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/12.mp4"
@@ -5855,7 +5855,7 @@
       "number": 13,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324909ga2p",
-      "title": "EpisÃ³dio 13",
+      "title": "In Each of Our Hearts",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS07DUB/13.mp4"
@@ -5945,7 +5945,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 1",
+      "title": "Izuku Midoriya: Origin",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/1.mp4"
@@ -5955,7 +5955,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 2",
+      "title": "What It Takes to Be a Hero",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/2.mp4"
@@ -5965,7 +5965,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 3",
+      "title": "Roaring Muscles",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/3.mp4"
@@ -5975,7 +5975,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 4",
+      "title": "Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/4.mp4"
@@ -5985,7 +5985,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 5",
+      "title": "What I Can Do For Now",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/5.mp4"
@@ -5995,7 +5995,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 6",
+      "title": "Rage, You Damn Nerd",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/6.mp4"
@@ -6005,7 +6005,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 7",
+      "title": "Deku vs. Kacchan",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/7.mp4"
@@ -6015,7 +6015,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 8",
+      "title": "Bakugo's Start Line",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/8.mp4"
@@ -6025,7 +6025,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 9",
+      "title": "Yeah, Just Do Your Best, Iida!",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/9.mp4"
@@ -6035,7 +6035,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 10",
+      "title": "Encounter with the Unknown",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/10.mp4"
@@ -6045,7 +6045,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da64324a6p965k",
-      "title": "EpisÃ³dio 11",
+      "title": "Game Over",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/BNHAS08DUB/11.mp4"
