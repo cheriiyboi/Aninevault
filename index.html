@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANIMEVAULT</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,300;9..40,500;9..40,700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #080b10; --s1: #0d1117; --s2: #161c26; --s3: #1e2535;
+  --border: #252d3d; --border2: #2f3a50;
+  --accent: #00d4ff; --accent2: #ff4d6d;
+  --text: #e8edf5; --muted: #5a6a85; --muted2: #8899b0;
+  --success: #00e5a0; --warn: #ffb830; --danger: #ff4d6d;
+  --r: 6px; --r2: 10px;
+  --font-title: 'Bebas Neue', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 14px; line-height: 1.5; min-height: 100vh; overflow-x: hidden; }
+
+/* SETUP */
+#setupScreen { position: fixed; inset: 0; background: var(--bg); z-index: 999; display: flex; align-items: center; justify-content: center; }
+.setup-box { background: var(--s1); border: 1px solid var(--border2); border-radius: 16px; padding: 40px 44px; width: 100%; max-width: 460px; }
+.setup-logo { font-family: var(--font-title); font-size: 46px; letter-spacing: 2px; text-align: center; margin-bottom: 4px; }
+.setup-logo span { color: var(--accent); }
+.setup-sub { text-align: center; color: var(--muted2); font-size: 12px; margin-bottom: 28px; }
+.setup-field { margin-bottom: 14px; }
+.setup-label { display: block; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted2); margin-bottom: 5px; font-family: var(--font-mono); }
+.setup-input { width: 100%; background: var(--s2); border: 1px solid var(--border2); border-radius: var(--r); color: var(--text); font-family: var(--font-mono); font-size: 12px; padding: 10px 13px; outline: none; transition: border-color .2s; }
+.setup-input:focus { border-color: var(--accent); }
+.setup-input::placeholder { color: var(--muted); }
+.setup-hint { font-size: 11px; color: var(--muted); margin-top: 5px; line-height: 1.5; }
+.setup-hint a { color: var(--accent); text-decoration: none; }
+.setup-hint a:hover { text-decoration: underline; }
+.setup-btn { width: 100%; margin-top: 20px; padding: 12px; background: var(--accent); color: #000; border: none; border-radius: var(--r); font-family: var(--font-title); font-size: 20px; letter-spacing: 2px; cursor: pointer; transition: filter .2s; }
+.setup-btn:hover { filter: brightness(1.1); }
+.setup-status { text-align: center; font-size: 12px; margin-top: 12px; min-height: 18px; font-family: var(--font-mono); }
+.setup-status.ok { color: var(--success); }
+.setup-status.err { color: var(--danger); }
+
+/* LAYOUT */
+#app { display: none; flex-direction: column; min-height: 100vh; }
+#app.visible { display: flex; }
+header { height: 54px; background: var(--s1); border-bottom: 1px solid var(--border); display: flex; align-items: center; padding: 0 22px; gap: 14px; position: sticky; top: 0; z-index: 80; }
+.logo { font-family: var(--font-title); font-size: 24px; letter-spacing: 2px; flex-shrink: 0; }
+.logo span { color: var(--accent); }
+.header-sep { flex: 1; }
+.hbtn { display: inline-flex; align-items: center; gap: 5px; padding: 6px 13px; border-radius: var(--r); font-family: var(--font-mono); font-size: 11px; font-weight: 500; cursor: pointer; border: 1px solid var(--border2); background: var(--s2); color: var(--muted2); transition: all .15s; }
+.hbtn:hover { border-color: var(--accent); color: var(--accent); }
+.hbtn.primary { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700; }
+.hbtn.primary:hover { filter: brightness(1.1); }
+.wrap { display: grid; grid-template-columns: 230px 1fr; flex: 1; }
+
+/* SIDEBAR */
+aside { background: var(--s1); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; }
+.sb-search { padding: 12px 12px 0; }
+.sb-search input { width: 100%; background: var(--s2); border: 1px solid var(--border); border-radius: var(--r); color: var(--text); font-family: var(--font-body); font-size: 13px; padding: 7px 11px; outline: none; transition: border-color .2s; }
+.sb-search input:focus { border-color: var(--accent); }
+.sb-search input::placeholder { color: var(--muted); }
+.sb-lbl { padding: 12px 12px 5px; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); font-family: var(--font-mono); }
+.anime-list { flex: 1; overflow-y: auto; padding-bottom: 6px; }
+.anime-item { display: flex; align-items: center; gap: 9px; padding: 7px 12px; cursor: pointer; border-left: 2px solid transparent; transition: all .13s; }
+.anime-item:hover { background: var(--s2); }
+.anime-item.active { border-left-color: var(--accent); background: var(--s2); }
+.ai-cover { width: 28px; height: 40px; border-radius: 3px; background: var(--s3); flex-shrink: 0; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 14px; overflow: hidden; }
+.ai-cover img { width: 100%; height: 100%; object-fit: cover; }
+.ai-info { overflow: hidden; flex: 1; }
+.ai-name { font-size: 12px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.anime-item.active .ai-name { color: var(--accent); }
+.ai-sub { font-size: 10px; color: var(--muted); margin-top: 1px; font-family: var(--font-mono); }
+.sb-add { margin: 7px 12px; padding: 7px; border: 1px dashed var(--border2); border-radius: var(--r); background: none; color: var(--muted); font-family: var(--font-mono); font-size: 11px; cursor: pointer; width: calc(100% - 24px); transition: all .15s; display: flex; align-items: center; justify-content: center; gap: 5px; }
+.sb-add:hover { border-color: var(--accent); color: var(--accent); }
+.settings-link { font-size: 10px; font-family: var(--font-mono); color: var(--muted); cursor: pointer; text-decoration: underline; background: none; border: none; margin-top: 6px; display: block; text-align: center; padding-bottom: 10px; }
+.settings-link:hover { color: var(--accent); }
+
+/* MAIN */
+main { overflow-y: auto; padding: 26px 30px; }
+.home-empty { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh; gap: 14px; text-align: center; }
+.home-empty-icon { font-size: 48px; opacity: .3; }
+.home-empty h2 { font-family: var(--font-title); font-size: 34px; letter-spacing: 2px; color: var(--muted2); }
+.home-empty p { color: var(--muted); font-size: 13px; max-width: 300px; }
+.stats-row { display: flex; gap: 10px; margin-bottom: 26px; }
+.stat-card { flex: 1; background: var(--s1); border: 1px solid var(--border); border-radius: var(--r2); padding: 14px 16px; }
+.stat-val { font-family: var(--font-title); font-size: 30px; letter-spacing: 1px; color: var(--accent); line-height: 1; }
+.stat-lbl { font-size: 10px; color: var(--muted2); margin-top: 3px; font-family: var(--font-mono); }
+
+/* DETAIL */
+.detail-header { display: flex; gap: 20px; align-items: flex-start; margin-bottom: 24px; }
+.detail-cover { width: 106px; height: 150px; border-radius: 8px; background: var(--s2); border: 1px solid var(--border2); flex-shrink: 0; overflow: hidden; display: flex; align-items: center; justify-content: center; font-size: 34px; }
+.detail-cover img { width: 100%; height: 100%; object-fit: cover; }
+.detail-info { flex: 1; padding-top: 2px; }
+.detail-title { font-family: var(--font-title); font-size: 32px; letter-spacing: 1px; line-height: 1; margin-bottom: 8px; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
+.tag { padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-family: var(--font-mono); }
+.tag-nsfw { background: rgba(255,77,109,.15); color: var(--danger); border: 1px solid rgba(255,77,109,.3); }
+.tag-rating { background: var(--s2); color: var(--muted2); border: 1px solid var(--border); }
+.tag-genre { background: rgba(0,212,255,.08); color: var(--accent); border: 1px solid rgba(0,212,255,.2); }
+.detail-desc { font-size: 13px; color: var(--muted2); line-height: 1.7; max-width: 520px; }
+.detail-actions { display: flex; gap: 7px; margin-top: 12px; }
+.section-bar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.section-title { font-family: var(--font-title); font-size: 17px; letter-spacing: 1px; color: var(--muted2); }
+.divider { height: 1px; background: var(--border); margin: 20px 0; }
+.season-pills { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 18px; }
+.spill { padding: 4px 13px; border-radius: 20px; border: 1px solid var(--border2); font-size: 11px; font-weight: 500; cursor: pointer; transition: all .13s; font-family: var(--font-mono); color: var(--muted2); }
+.spill:hover { border-color: var(--accent); color: var(--accent); }
+.spill.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 700; }
+.spill.film { border-color: var(--warn); color: var(--warn); }
+.spill.film.active { background: var(--warn); color: #000; }
+.spill.ova { border-color: var(--accent2); color: var(--accent2); }
+.spill.ova.active { background: var(--accent2); color: #fff; }
+
+/* EP TABLE */
+.ep-table { width: 100%; border-collapse: collapse; }
+.ep-table th { text-align: left; padding: 7px 9px; font-size: 10px; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; font-family: var(--font-mono); border-bottom: 1px solid var(--border); font-weight: 500; }
+.ep-table td { padding: 8px 9px; border-bottom: 1px solid rgba(37,45,61,.6); vertical-align: middle; }
+.ep-table tbody tr:hover td { background: var(--s2); }
+.ep-num { font-family: var(--font-mono); font-size: 11px; color: var(--accent); font-weight: 700; width: 34px; }
+.ep-thumb-cell { width: 76px; }
+.ep-thumb { width: 68px; height: 38px; border-radius: 4px; background: var(--s3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 16px; overflow: hidden; }
+.ep-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.ep-title-cell { font-size: 13px; font-weight: 500; }
+.ep-link-cell { font-family: var(--font-mono); font-size: 11px; color: var(--muted); max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ep-link-cell a { color: var(--muted); text-decoration: none; }
+.ep-link-cell a:hover { color: var(--accent); }
+.ep-actions { display: flex; gap: 3px; }
+
+/* BUTTONS */
+.btn { display: inline-flex; align-items: center; gap: 4px; padding: 6px 13px; border-radius: var(--r); font-family: var(--font-mono); font-size: 11px; font-weight: 500; cursor: pointer; border: 1px solid transparent; transition: all .15s; white-space: nowrap; }
+.btn-primary { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700; }
+.btn-primary:hover { filter: brightness(1.1); }
+.btn-ghost { background: transparent; color: var(--muted2); border-color: var(--border2); }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+.btn-danger { background: transparent; color: var(--danger); border-color: rgba(255,77,109,.3); }
+.btn-danger:hover { background: var(--danger); color: #fff; border-color: var(--danger); }
+.btn-success { background: var(--success); color: #000; font-weight: 700; }
+.btn-icon { padding: 4px 6px; }
+.btn-sm { padding: 4px 9px; font-size: 10px; }
+.btn:disabled { opacity: .4; cursor: not-allowed; }
+
+/* MODAL */
+.overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.75); z-index: 200; align-items: center; justify-content: center; backdrop-filter: blur(6px); padding: 20px; }
+.overlay.open { display: flex; }
+.modal { background: var(--s1); border: 1px solid var(--border2); border-radius: 14px; padding: 26px 28px; width: 100%; max-width: 500px; max-height: 88vh; overflow-y: auto; }
+.modal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.modal-title { font-family: var(--font-title); font-size: 21px; letter-spacing: 1px; }
+.modal-title span { color: var(--accent); }
+.modal-close { background: none; border: none; color: var(--muted); font-size: 19px; cursor: pointer; line-height: 1; }
+.modal-close:hover { color: var(--text); }
+.modal-footer { display: flex; gap: 7px; justify-content: flex-end; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+
+/* FORM */
+.fg { display: grid; gap: 13px; }
+.fg2 { grid-template-columns: 1fr 1fr; }
+.field { display: flex; flex-direction: column; gap: 5px; }
+.field.span2 { grid-column: 1 / -1; }
+.lbl { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted2); font-family: var(--font-mono); }
+input[type=text], input[type=url], input[type=number], textarea, select { background: var(--s2); border: 1px solid var(--border2); border-radius: var(--r); color: var(--text); font-family: var(--font-body); font-size: 13px; padding: 8px 11px; outline: none; transition: border-color .2s; width: 100%; }
+input:focus, textarea:focus, select:focus { border-color: var(--accent); }
+textarea { resize: vertical; min-height: 76px; }
+select option { background: var(--s2); }
+input::placeholder, textarea::placeholder { color: var(--muted); }
+
+/* JIKAN PICKER */
+.jikan-row { display: flex; gap: 7px; }
+.jikan-row input { flex: 1; }
+.jikan-results { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.jikan-thumb { width: 52px; height: 74px; border-radius: 4px; object-fit: cover; border: 2px solid transparent; cursor: pointer; transition: border-color .15s; background: var(--s3); flex-shrink: 0; }
+.jikan-thumb:hover { border-color: var(--accent); }
+.jikan-thumb.selected { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(0,212,255,.3); }
+.cover-preview-row { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.cover-preview-img { width: 40px; height: 56px; border-radius: 4px; object-fit: cover; border: 1px solid var(--border2); background: var(--s3); display: none; }
+.cover-preview-img.show { display: block; }
+.cover-preview-url { font-size: 10px; color: var(--muted); font-family: var(--font-mono); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+
+/* TOGGLE */
+.toggle-row { display: flex; align-items: center; gap: 9px; }
+.toggle { position: relative; width: 38px; height: 21px; flex-shrink: 0; }
+.toggle input { opacity: 0; width: 0; height: 0; position: absolute; }
+.tslider { position: absolute; inset: 0; background: var(--s3); border: 1px solid var(--border2); border-radius: 21px; cursor: pointer; transition: .2s; }
+.tslider::before { content: ''; position: absolute; width: 13px; height: 13px; left: 3px; top: 50%; transform: translateY(-50%); background: var(--muted); border-radius: 50%; transition: .2s; }
+.toggle input:checked + .tslider { background: var(--accent); border-color: var(--accent); }
+.toggle input:checked + .tslider::before { transform: translate(17px,-50%); background: #000; }
+.toggle-label { font-size: 12px; color: var(--muted2); }
+
+/* EXPORT */
+.export-grid { display: grid; gap: 11px; }
+.export-card { background: var(--s2); border: 1px solid var(--border); border-radius: var(--r2); padding: 16px 18px; }
+.export-card h3 { font-family: var(--font-title); font-size: 16px; letter-spacing: 1px; margin-bottom: 4px; }
+.export-card p { font-size: 12px; color: var(--muted2); line-height: 1.6; margin-bottom: 10px; }
+
+/* MISC */
+.loading { display: flex; align-items: center; gap: 7px; color: var(--muted2); font-size: 12px; font-family: var(--font-mono); padding: 18px 0; }
+.spinner { width: 13px; height: 13px; border: 2px solid var(--border2); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; flex-shrink: 0; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.empty { text-align: center; padding: 36px 18px; color: var(--muted); }
+.empty-icon { font-size: 30px; margin-bottom: 7px; opacity: .4; }
+.empty p { font-size: 12px; }
+#toast { position: fixed; bottom: 18px; right: 18px; background: var(--s1); border: 1px solid var(--border2); border-radius: var(--r2); padding: 10px 15px; display: flex; align-items: center; gap: 8px; font-size: 12px; font-family: var(--font-mono); transform: translateY(60px); opacity: 0; transition: all .22s cubic-bezier(.4,0,.2,1); z-index: 999; max-width: 280px; pointer-events: none; }
+#toast.show { transform: translateY(0); opacity: 1; }
+#toast.ok { border-color: var(--success); } #toast.ok .tdot { background: var(--success); }
+#toast.err { border-color: var(--danger); } #toast.err .tdot { background: var(--danger); }
+#toast.warn { border-color: var(--warn); } #toast.warn .tdot { background: var(--warn); }
+.tdot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; background: var(--muted); }
+::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<!-- SETUP -->
+<div id="setupScreen">
+  <div class="setup-box">
+    <div class="setup-logo">ANIME<span>VAULT</span></div>
+    <div class="setup-sub">Salva tudo num repositório GitHub</div>
+
+    <div class="setup-field">
+      <label class="setup-label">Usuário GitHub</label>
+      <input class="setup-input" id="cfg-owner" placeholder="seu-usuario" autocomplete="off">
+    </div>
+    <div class="setup-field">
+      <label class="setup-label">Repositório</label>
+      <input class="setup-input" id="cfg-repo" placeholder="animevault-data" autocomplete="off">
+      <div class="setup-hint">Pode ser privado e vazio. Crie em <a href="https://github.com/new" target="_blank">github.com/new</a>.</div>
+    </div>
+    <div class="setup-field">
+      <label class="setup-label">Personal Access Token</label>
+      <input class="setup-input" id="cfg-token" type="password" placeholder="ghp_..." autocomplete="off">
+      <div class="setup-hint"><a href="https://github.com/settings/tokens/new?scopes=repo&description=AnimeVault" target="_blank">Gerar token</a> — marque só <strong>repo</strong>.</div>
+    </div>
+
+    <button class="setup-btn" onclick="connectGitHub()">CONECTAR</button>
+    <div class="setup-status" id="setupStatus"></div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <header>
+    <div class="logo">ANIME<span>VAULT</span></div>
+    <div class="header-sep"></div>
+    <button class="hbtn" onclick="showExport()">⬇ Exportar</button>
+    <button class="hbtn primary" onclick="openAnimeModal()">+ Anime</button>
+  </header>
+  <div class="wrap">
+    <aside>
+      <div class="sb-search"><input placeholder="Buscar anime..." oninput="filterSidebar(this.value)"></div>
+      <div class="sb-lbl">Catálogo</div>
+      <div class="anime-list" id="animeList"></div>
+      <button class="sb-add" onclick="openAnimeModal()">+ Adicionar anime</button>
+      <button class="settings-link" onclick="resetConfig()">⚙ Trocar conexão</button>
+    </aside>
+    <main>
+      <div id="view-home"></div>
+      <div id="view-detail" style="display:none"></div>
+      <div id="view-export" style="display:none"></div>
+    </main>
+  </div>
+</div>
+
+<!-- MODAL ANIME -->
+<div class="overlay" id="animeOverlay">
+  <div class="modal">
+    <div class="modal-head">
+      <div class="modal-title" id="animeModalTitle">+ <span>Novo Anime</span></div>
+      <button class="modal-close" onclick="closeOverlay('animeOverlay')">✕</button>
+    </div>
+    <div class="fg fg2">
+      <div class="field span2">
+        <div class="lbl">Nome *</div>
+        <input type="text" id="af-name" placeholder="ex: Demon Slayer">
+      </div>
+      <div class="field span2">
+        <div class="lbl">Descrição</div>
+        <textarea id="af-desc" placeholder="Sinopse..."></textarea>
+      </div>
+      <div class="field">
+        <div class="lbl">Gênero(s)</div>
+        <input type="text" id="af-genre" placeholder="Ação, Fantasia...">
+      </div>
+      <div class="field">
+        <div class="lbl">Classificação</div>
+        <select id="af-rating">
+          <option value="L">L — Livre</option>
+          <option value="10">10+</option>
+          <option value="12">12+</option>
+          <option value="14">14+</option>
+          <option value="16">16+</option>
+          <option value="18">18+</option>
+        </select>
+      </div>
+      <div class="field span2">
+        <div class="lbl">NSFW</div>
+        <div class="toggle-row">
+          <label class="toggle"><input type="checkbox" id="af-nsfw"><span class="tslider"></span></label>
+          <span class="toggle-label">Marcar como conteúdo adulto</span>
+        </div>
+      </div>
+      <div class="field span2">
+        <div class="lbl">Capa — buscar no Jikan</div>
+        <div class="jikan-row">
+          <input type="text" id="af-jikan-q" placeholder="Nome do anime (inglês ou japonês)..." onkeydown="if(event.key==='Enter')searchJikan()">
+          <button class="btn btn-ghost btn-sm" onclick="searchJikan()">Buscar</button>
+        </div>
+        <div class="jikan-results" id="af-jikan-results"></div>
+        <div class="cover-preview-row">
+          <img class="cover-preview-img" id="af-cover-preview" src="" alt="">
+          <span class="cover-preview-url" id="af-cover-label">Nenhuma capa selecionada</span>
+        </div>
+        <input type="hidden" id="af-cover-url">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeOverlay('animeOverlay')">Cancelar</button>
+      <button class="btn btn-primary" id="animeSubmitBtn" data-label="Salvar" onclick="saveAnime()">Salvar</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL TEMPORADA -->
+<div class="overlay" id="seasonOverlay">
+  <div class="modal">
+    <div class="modal-head">
+      <div class="modal-title" id="seasonModalTitle">+ <span>Temporada / Filme</span></div>
+      <button class="modal-close" onclick="closeOverlay('seasonOverlay')">✕</button>
+    </div>
+    <div class="fg">
+      <div class="field">
+        <div class="lbl">Tipo</div>
+        <select id="sf-type">
+          <option value="season">Temporada</option>
+          <option value="film">Filme</option>
+          <option value="ova">OVA / Especial</option>
+        </select>
+      </div>
+      <div class="field">
+        <div class="lbl">Nome (opcional)</div>
+        <input type="text" id="sf-name" placeholder="ex: Arco Mugen Train">
+      </div>
+      <div class="field">
+        <div class="lbl">Ano</div>
+        <input type="number" id="sf-year" placeholder="2024" min="1960" max="2100">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeOverlay('seasonOverlay')">Cancelar</button>
+      <button class="btn btn-primary" id="seasonSubmitBtn" data-label="Salvar" onclick="saveSeason()">Salvar</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL EPISÓDIO -->
+<div class="overlay" id="epOverlay">
+  <div class="modal">
+    <div class="modal-head">
+      <div class="modal-title" id="epModalTitle"><span>Episódio</span></div>
+      <button class="modal-close" onclick="closeOverlay('epOverlay')">✕</button>
+    </div>
+    <div class="fg fg2">
+      <div class="field">
+        <div class="lbl">Número</div>
+        <input type="number" id="ef-num" placeholder="1" min="1">
+      </div>
+      <div class="field">
+        <div class="lbl">Título (opcional)</div>
+        <input type="text" id="ef-title" placeholder="Deixe vazio para auto">
+      </div>
+      <div class="field span2">
+        <div class="lbl">Link do episódio *</div>
+        <input type="url" id="ef-url" placeholder="https://...">
+      </div>
+      <div class="field span2">
+        <div class="lbl">URL da thumbnail (opcional)</div>
+        <input type="url" id="ef-cover-url" placeholder="https://cdn...">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeOverlay('epOverlay')">Cancelar</button>
+      <button class="btn btn-primary" id="epSubmitBtn" data-label="Salvar" onclick="saveEpisode()">Salvar</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"><div class="tdot"></div><span id="toastMsg">—</span></div>
+
+<script>
+// ── CONFIG ────────────────────────────────────────
+let GH = { owner: '', repo: '', token: '' };
+let fileSha = null;
+const GH_API = 'https://api.github.com';
+const CATALOG_PATH = 'catalog.json';
+
+function ghHeaders() {
+  return {
+    'Authorization': `Bearer ${GH.token}`,
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'Content-Type': 'application/json'
+  };
+}
+
+// ── GITHUB PERSISTENCE ────────────────────────────
+async function ghGetCatalog() {
+  const r = await fetch(`${GH_API}/repos/${GH.owner}/${GH.repo}/contents/${CATALOG_PATH}`, { headers: ghHeaders() });
+  if (r.status === 404) { fileSha = null; return { animes: [], seasons: [], episodes: [] }; }
+  if (!r.ok) throw new Error('GitHub ' + r.status);
+  const data = await r.json();
+  fileSha = data.sha;
+  return JSON.parse(atob(data.content.replace(/\n/g, '')));
+}
+
+async function ghSaveCatalog(catalog) {
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(catalog, null, 2))));
+  const r = await fetch(`${GH_API}/repos/${GH.owner}/${GH.repo}/contents/${CATALOG_PATH}`, {
+    method: 'PUT',
+    headers: ghHeaders(),
+    body: JSON.stringify({
+      message: `update catalog — ${new Date().toISOString()}`,
+      content,
+      ...(fileSha ? { sha: fileSha } : {})
+    })
+  });
+  if (!r.ok) throw new Error(await r.text());
+  fileSha = (await r.json()).content.sha;
+}
+
+// ── SETUP ─────────────────────────────────────────
+async function connectGitHub() {
+  const owner = document.getElementById('cfg-owner').value.trim();
+  const repo   = document.getElementById('cfg-repo').value.trim();
+  const token  = document.getElementById('cfg-token').value.trim();
+  const status = document.getElementById('setupStatus');
+
+  if (!owner || !repo || !token) {
+    status.textContent = 'Preencha todos os campos.';
+    status.className = 'setup-status err'; return;
+  }
+  status.textContent = 'Conectando...'; status.className = 'setup-status';
+  try {
+    GH = { owner, repo, token };
+    const r = await fetch(`${GH_API}/repos/${owner}/${repo}`, { headers: ghHeaders() });
+    if (r.status === 401) throw new Error('Token inválido');
+    if (r.status === 404) throw new Error('Repositório não encontrado');
+    if (!r.ok) throw new Error('GitHub ' + r.status);
+    localStorage.setItem('av_gh', JSON.stringify({ owner, repo, token }));
+    status.textContent = '✓ Conectado!'; status.className = 'setup-status ok';
+    setTimeout(bootApp, 600);
+  } catch(e) {
+    status.textContent = 'Erro: ' + e.message;
+    status.className = 'setup-status err';
+    GH = { owner: '', repo: '', token: '' };
+  }
+}
+
+function resetConfig() {
+  if (!confirm('Trocar de repositório?')) return;
+  localStorage.removeItem('av_gh'); location.reload();
+}
+
+// ── STATE ─────────────────────────────────────────
+let allAnimes = [], allSeasons = [], allEpisodes = [];
+let currentAnimeId = null, currentSeasonId = null;
+let editingAnimeId = null, editingEpId = null, editingSeasonId = null;
+
+function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+
+async function bootApp() {
+  document.getElementById('setupScreen').style.display = 'none';
+  document.getElementById('app').classList.add('visible');
+  await loadCatalog(); renderHome();
+}
+
+async function loadCatalog() {
+  try {
+    const cat = await ghGetCatalog();
+    allAnimes   = (cat.animes   || []).sort((a,b) => a.name.localeCompare(b.name));
+    allSeasons  = cat.seasons   || [];
+    allEpisodes = cat.episodes  || [];
+  } catch(e) { toast('Erro ao carregar: ' + e.message, 'err'); allAnimes=[]; allSeasons=[]; allEpisodes=[]; }
+  renderSidebar(allAnimes);
+}
+
+async function persistCatalog() {
+  await ghSaveCatalog({ animes: allAnimes, seasons: allSeasons, episodes: allEpisodes });
+}
+
+// ── SIDEBAR ───────────────────────────────────────
+function renderSidebar(list) {
+  const el = document.getElementById('animeList');
+  if (!list.length) { el.innerHTML = `<div class="empty"><div class="empty-icon">📭</div><p>Nenhum anime ainda</p></div>`; return; }
+  el.innerHTML = list.map(a => `
+    <div class="anime-item ${a.id===currentAnimeId?'active':''}" onclick="openDetail('${a.id}')">
+      <div class="ai-cover">${a.cover_url?`<img src="${a.cover_url}" onerror="this.style.display='none'">` : '📺'}</div>
+      <div class="ai-info">
+        <div class="ai-name">${a.name}</div>
+        <div class="ai-sub">${a.nsfw?'🔞 · ':''}${a.rating||'L'}+</div>
+      </div>
+    </div>`).join('');
+}
+function filterSidebar(q) { renderSidebar(q ? allAnimes.filter(a=>a.name.toLowerCase().includes(q.toLowerCase())) : allAnimes); }
+
+// ── HOME ──────────────────────────────────────────
+function renderHome() {
+  const el = document.getElementById('view-home');
+  if (!allAnimes.length) {
+    el.innerHTML = `<div class="home-empty"><div class="home-empty-icon">🎌</div><h2>CATÁLOGO VAZIO</h2><p>Adicione seu primeiro anime para começar.</p><button class="btn btn-primary" style="margin-top:8px" onclick="openAnimeModal()">+ Adicionar anime</button></div>`;
+    return;
+  }
+  el.innerHTML = `
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-val">${allAnimes.length}</div><div class="stat-lbl">animes</div></div>
+      <div class="stat-card"><div class="stat-val">${allSeasons.length}</div><div class="stat-lbl">temporadas</div></div>
+      <div class="stat-card"><div class="stat-val">${allEpisodes.length}</div><div class="stat-lbl">episódios</div></div>
+      <div class="stat-card"><div class="stat-val">${allAnimes.filter(a=>a.nsfw).length}</div><div class="stat-lbl">nsfw</div></div>
+    </div>
+    <div class="empty" style="margin-top:36px;opacity:.4"><div class="empty-icon">👈</div><p>Selecione um anime na barra lateral</p></div>`;
+}
+
+function showView(name) {
+  ['home','detail','export'].forEach(v => document.getElementById('view-'+v).style.display = v===name?'':'none');
+}
+
+// ── DETAIL ────────────────────────────────────────
+function openDetail(id) {
+  currentAnimeId = id; currentSeasonId = null;
+  renderSidebar(allAnimes); showView('detail');
+  const anime = allAnimes.find(a=>a.id===id);
+  if (!anime) { document.getElementById('view-detail').innerHTML=`<div class="empty"><p>Não encontrado.</p></div>`; return; }
+  const seasons = allSeasons.filter(s=>s.anime_id===id).sort((a,b)=>a.type.localeCompare(b.type)||(a.number||0)-(b.number||0));
+  const genres = anime.genre ? anime.genre.split(',').map(g=>`<span class="tag tag-genre">${g.trim()}</span>`).join('') : '';
+  document.getElementById('view-detail').innerHTML = `
+    <div class="detail-header">
+      <div class="detail-cover">${anime.cover_url?`<img src="${anime.cover_url}" onerror="this.style.display='none'">`:'📺'}</div>
+      <div class="detail-info">
+        <div class="detail-title">${anime.name}</div>
+        <div class="tags">${anime.nsfw?'<span class="tag tag-nsfw">NSFW</span>':''}<span class="tag tag-rating">${anime.rating||'L'}+</span>${genres}</div>
+        ${anime.description?`<div class="detail-desc">${anime.description}</div>`:''}
+        <div class="detail-actions">
+          <button class="btn btn-ghost btn-sm" onclick="openAnimeModal('${anime.id}')">✏ Editar</button>
+          <button class="btn btn-danger btn-sm" onclick="deleteAnime('${anime.id}')">🗑 Excluir</button>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="section-bar"><div class="section-title">TEMPORADAS</div><button class="btn btn-ghost btn-sm" onclick="openSeasonModal()">+ Temporada</button></div>
+    <div class="season-pills" id="seasonPills">
+      ${seasons.length ? seasons.map(s=>{
+        const lbl = s.type==='film'?`🎬 ${s.name||'Filme'}`:s.type==='ova'?`⭐ ${s.name||'OVA'}`:`T${s.number}${s.name?' · '+s.name:''}`;
+        return `<span class="spill ${s.type}" onclick="selectSeason('${s.id}')">${lbl}</span>`;
+      }).join('') : '<span style="color:var(--muted);font-size:12px">Nenhuma temporada ainda.</span>'}
+    </div>
+    <div class="divider"></div>
+    <div id="episodesArea"><div class="empty"><div class="empty-icon">📂</div><p>Selecione uma temporada acima.</p></div></div>`;
+  if (seasons.length) selectSeason(seasons[0].id);
+}
+
+function selectSeason(seasonId) {
+  currentSeasonId = seasonId;
+  document.querySelectorAll('.spill').forEach(s=>s.classList.toggle('active', s.getAttribute('onclick').includes(seasonId)));
+  const season = allSeasons.find(s=>s.id===seasonId);
+  const episodes = allEpisodes.filter(e=>e.season_id===seasonId).sort((a,b)=>a.number-b.number);
+  const lbl = season ? (season.name||`Temporada ${season.number}`) : '';
+  document.getElementById('episodesArea').innerHTML = `
+    <div class="section-bar">
+      <div class="section-title">EPISÓDIOS${lbl?' — '+lbl.toUpperCase():''}</div>
+      <div style="display:flex;gap:6px">
+        <button class="btn btn-ghost btn-sm" onclick="openSeasonModal('${seasonId}')">✏ Editar</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteSeason('${seasonId}')">🗑 Excluir</button>
+        <button class="btn btn-ghost btn-sm" onclick="openEpModal()">+ Episódio</button>
+      </div>
+    </div>
+    ${episodes.length ? `<table class="ep-table">
+      <thead><tr><th>#</th><th class="ep-thumb-cell">Thumb</th><th>Título</th><th>Link</th><th></th></tr></thead>
+      <tbody>${episodes.map(ep=>`
+        <tr>
+          <td class="ep-num">${String(ep.number).padStart(2,'0')}</td>
+          <td class="ep-thumb-cell"><div class="ep-thumb">${ep.cover_url?`<img src="${ep.cover_url}" onerror="this.style.display='none'">`:'🎬'}</div></td>
+          <td class="ep-title-cell">${ep.title||`Episódio ${ep.number}`}</td>
+          <td class="ep-link-cell"><a href="${ep.url}" target="_blank">${ep.url}</a></td>
+          <td><div class="ep-actions">
+            <button class="btn btn-ghost btn-icon btn-sm" onclick="openEpModal('${ep.id}')">✏</button>
+            <button class="btn btn-danger btn-icon btn-sm" onclick="deleteEp('${ep.id}')">🗑</button>
+          </div></td>
+        </tr>`).join('')}</tbody>
+    </table>` : `<div class="empty"><div class="empty-icon">🎬</div><p>Nenhum episódio ainda.</p></div>`}`;
+}
+
+// ── JIKAN ─────────────────────────────────────────
+async function searchJikan() {
+  const q = document.getElementById('af-jikan-q').value.trim();
+  if (!q) return;
+  const box = document.getElementById('af-jikan-results');
+  box.innerHTML = `<span style="color:var(--muted);font-size:11px;font-family:var(--font-mono)">Buscando...</span>`;
+  try {
+    const r = await fetch(`https://api.jikan.moe/v4/anime?q=${encodeURIComponent(q)}&limit=10&sfw=false`);
+    const { data } = await r.json();
+    if (!data?.length) { box.innerHTML = `<span style="color:var(--muted);font-size:11px;font-family:var(--font-mono)">Nenhum resultado.</span>`; return; }
+    box.innerHTML = data.map(a => {
+      const img = a.images?.jpg?.large_image_url || a.images?.jpg?.image_url || '';
+      return `<img class="jikan-thumb" src="${img}" title="${a.title}" onclick="selectJikanCover('${img}',this)" onerror="this.style.display='none'">`;
+    }).join('');
+  } catch(e) { box.innerHTML = `<span style="color:var(--danger);font-size:11px;font-family:var(--font-mono)">Erro: ${e.message}</span>`; }
+}
+
+function selectJikanCover(url, el) {
+  document.getElementById('af-cover-url').value = url;
+  document.querySelectorAll('.jikan-thumb').forEach(t=>t.classList.remove('selected'));
+  el.classList.add('selected');
+  const prev = document.getElementById('af-cover-preview');
+  prev.src = url; prev.classList.add('show');
+  document.getElementById('af-cover-label').textContent = url;
+}
+
+// ── ANIME CRUD ────────────────────────────────────
+function openAnimeModal(id) {
+  editingAnimeId = id || null;
+  document.getElementById('af-jikan-results').innerHTML = '';
+  document.getElementById('af-jikan-q').value = '';
+  const prev = document.getElementById('af-cover-preview');
+  prev.src = ''; prev.classList.remove('show');
+  document.getElementById('af-cover-label').textContent = 'Nenhuma capa selecionada';
+  if (id) {
+    const a = allAnimes.find(x=>x.id===id);
+    document.getElementById('animeModalTitle').innerHTML = '✏ <span>Editar Anime</span>';
+    document.getElementById('af-name').value = a.name||'';
+    document.getElementById('af-desc').value = a.description||'';
+    document.getElementById('af-genre').value = a.genre||'';
+    document.getElementById('af-rating').value = a.rating||'L';
+    document.getElementById('af-nsfw').checked = !!a.nsfw;
+    document.getElementById('af-cover-url').value = a.cover_url||'';
+    if (a.cover_url) { prev.src=a.cover_url; prev.classList.add('show'); document.getElementById('af-cover-label').textContent=a.cover_url; }
+  } else {
+    document.getElementById('animeModalTitle').innerHTML = '+ <span>Novo Anime</span>';
+    ['af-name','af-desc','af-genre','af-cover-url'].forEach(i=>document.getElementById(i).value='');
+    document.getElementById('af-rating').value='L';
+    document.getElementById('af-nsfw').checked=false;
+  }
+  openOverlay('animeOverlay');
+}
+
+async function saveAnime() {
+  const name = document.getElementById('af-name').value.trim();
+  if (!name) { toast('Nome obrigatório','err'); return; }
+  setLoading('animeSubmitBtn', true);
+  try {
+    const patch = { name, description: document.getElementById('af-desc').value.trim()||null, genre: document.getElementById('af-genre').value.trim()||null, rating: document.getElementById('af-rating').value, nsfw: document.getElementById('af-nsfw').checked, cover_url: document.getElementById('af-cover-url').value.trim()||null };
+    if (editingAnimeId) {
+      const idx = allAnimes.findIndex(a=>a.id===editingAnimeId);
+      allAnimes[idx] = { ...allAnimes[idx], ...patch };
+    } else {
+      allAnimes.push({ id: uid(), created_at: new Date().toISOString(), ...patch });
+      allAnimes.sort((a,b)=>a.name.localeCompare(b.name));
+    }
+    await persistCatalog();
+    closeOverlay('animeOverlay');
+    renderSidebar(allAnimes);
+    if (editingAnimeId) openDetail(editingAnimeId); else renderHome();
+    toast(editingAnimeId?'Anime atualizado!':'Anime adicionado!','ok');
+  } catch(e) { toast('Erro: '+e.message,'err'); }
+  setLoading('animeSubmitBtn', false);
+}
+
+async function deleteAnime(id) {
+  if (!confirm('Excluir este anime e todos seus episódios?')) return;
+  allAnimes   = allAnimes.filter(a=>a.id!==id);
+  allSeasons  = allSeasons.filter(s=>s.anime_id!==id);
+  allEpisodes = allEpisodes.filter(e=>e.anime_id!==id);
+  try { await persistCatalog(); currentAnimeId=null; renderSidebar(allAnimes); renderHome(); showView('home'); toast('Anime excluído','ok'); }
+  catch(e) { toast('Erro: '+e.message,'err'); await loadCatalog(); }
+}
+
+// ── SEASON CRUD ───────────────────────────────────
+function openSeasonModal(id) {
+  editingSeasonId = id||null;
+  document.getElementById('seasonModalTitle').innerHTML = id ? '✏ <span>Editar Temporada</span>' : '+ <span>Temporada / Filme</span>';
+  if (id) { const s=allSeasons.find(x=>x.id===id); document.getElementById('sf-type').value=s.type||'season'; document.getElementById('sf-name').value=s.name||''; document.getElementById('sf-year').value=s.year||''; }
+  else { document.getElementById('sf-type').value='season'; document.getElementById('sf-name').value=''; document.getElementById('sf-year').value=''; }
+  openOverlay('seasonOverlay');
+}
+
+async function saveSeason() {
+  setLoading('seasonSubmitBtn',true);
+  try {
+    const body = { anime_id: currentAnimeId, type: document.getElementById('sf-type').value, name: document.getElementById('sf-name').value.trim()||null, year: parseInt(document.getElementById('sf-year').value)||null };
+    if (editingSeasonId) { const idx=allSeasons.findIndex(s=>s.id===editingSeasonId); allSeasons[idx]={...allSeasons[idx],...body}; }
+    else { allSeasons.push({ id:uid(), number: allSeasons.filter(s=>s.anime_id===currentAnimeId).length+1, created_at:new Date().toISOString(), ...body }); }
+    await persistCatalog(); closeOverlay('seasonOverlay'); openDetail(currentAnimeId);
+    toast(editingSeasonId?'Temporada atualizada!':'Temporada adicionada!','ok');
+  } catch(e) { toast('Erro: '+e.message,'err'); }
+  setLoading('seasonSubmitBtn',false);
+}
+
+async function deleteSeason(id) {
+  if (!confirm('Excluir esta temporada e seus episódios?')) return;
+  allSeasons=allSeasons.filter(s=>s.id!==id); allEpisodes=allEpisodes.filter(e=>e.season_id!==id);
+  try { await persistCatalog(); openDetail(currentAnimeId); toast('Temporada excluída','ok'); }
+  catch(e) { toast('Erro: '+e.message,'err'); await loadCatalog(); }
+}
+
+// ── EPISODE CRUD ──────────────────────────────────
+function openEpModal(id) {
+  editingEpId = id||null;
+  document.getElementById('epModalTitle').innerHTML = id ? '✏ <span>Editar Episódio</span>' : '+ <span>Novo Episódio</span>';
+  if (id) { const ep=allEpisodes.find(e=>e.id===id); document.getElementById('ef-num').value=ep.number||''; document.getElementById('ef-title').value=ep.title||''; document.getElementById('ef-url').value=ep.url||''; document.getElementById('ef-cover-url').value=ep.cover_url||''; }
+  else { const eps=allEpisodes.filter(e=>e.season_id===currentSeasonId); document.getElementById('ef-num').value=eps.length?Math.max(...eps.map(e=>e.number))+1:1; document.getElementById('ef-title').value=''; document.getElementById('ef-url').value=''; document.getElementById('ef-cover-url').value=''; }
+  openOverlay('epOverlay');
+}
+
+async function saveEpisode() {
+  const url = document.getElementById('ef-url').value.trim();
+  if (!url) { toast('Link é obrigatório','err'); return; }
+  setLoading('epSubmitBtn',true);
+  try {
+    const ep = { season_id:currentSeasonId, anime_id:currentAnimeId, number:parseInt(document.getElementById('ef-num').value)||1, title:document.getElementById('ef-title').value.trim()||null, url, cover_url:document.getElementById('ef-cover-url').value.trim()||null };
+    if (editingEpId) { const idx=allEpisodes.findIndex(e=>e.id===editingEpId); allEpisodes[idx]={...allEpisodes[idx],...ep}; }
+    else { allEpisodes.push({ id:uid(), created_at:new Date().toISOString(), ...ep }); }
+    await persistCatalog(); closeOverlay('epOverlay'); selectSeason(currentSeasonId);
+    toast(editingEpId?'Episódio atualizado!':'Episódio adicionado!','ok');
+  } catch(e) { toast('Erro: '+e.message,'err'); }
+  setLoading('epSubmitBtn',false);
+}
+
+async function deleteEp(id) {
+  if (!confirm('Excluir este episódio?')) return;
+  allEpisodes=allEpisodes.filter(e=>e.id!==id);
+  try { await persistCatalog(); selectSeason(currentSeasonId); toast('Episódio excluído','ok'); }
+  catch(e) { toast('Erro: '+e.message,'err'); await loadCatalog(); }
+}
+
+// ── EXPORT ────────────────────────────────────────
+function showExport() {
+  showView('export'); currentAnimeId=null; renderSidebar(allAnimes);
+  document.getElementById('view-export').innerHTML = `
+    <div class="section-bar" style="margin-bottom:18px"><div class="section-title">EXPORTAR / IMPORTAR</div></div>
+    <div class="export-grid">
+      <div class="export-card">
+        <h3>📦 Baixar catalog.json</h3>
+        <p>Cópia local de todos os dados.</p>
+        <button class="btn btn-success" onclick="exportFull()">⬇ Baixar</button>
+      </div>
+      <div class="export-card">
+        <h3>🔗 Endpoint público</h3>
+        <p>Se o repo for público, qualquer app pode ler o catálogo diretamente:</p>
+        <div style="background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:9px 11px;font-family:var(--font-mono);font-size:10px;color:var(--accent);word-break:break-all;margin-bottom:8px">
+          https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/main/catalog.json
+        </div>
+        <button class="btn btn-ghost btn-sm" onclick="copyRawUrl()">📋 Copiar</button>
+      </div>
+      <div class="export-card">
+        <h3>📥 Importar backup</h3>
+        <p style="color:var(--danger);font-weight:500">⚠ Substitui o catálogo inteiro.</p>
+        <input type="file" id="importFile" accept=".json" style="display:none" onchange="importJSON(event)">
+        <button class="btn btn-ghost" onclick="document.getElementById('importFile').click()">📂 Carregar JSON</button>
+      </div>
+    </div>`;
+}
+
+function exportFull() {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({exported_at:new Date().toISOString(),animes:allAnimes,seasons:allSeasons,episodes:allEpisodes},null,2)],{type:'application/json'}));
+  a.download='catalog.json'; a.click(); toast('Exportado!','ok');
+}
+
+function copyRawUrl() {
+  navigator.clipboard.writeText(`https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/main/catalog.json`);
+  toast('Copiado!','ok');
+}
+
+async function importJSON(e) {
+  const file = e.target.files[0]; if (!file) return;
+  const reader = new FileReader();
+  reader.onload = async ev => {
+    try {
+      const data = JSON.parse(ev.target.result);
+      if (!data.animes) throw new Error('JSON inválido');
+      if (!confirm(`Importar ${data.animes.length} animes? Substitui o catálogo atual.`)) return;
+      toast('Salvando no GitHub...','warn');
+      allAnimes=data.animes||[]; allSeasons=data.seasons||[]; allEpisodes=data.episodes||[];
+      await persistCatalog(); renderSidebar(allAnimes); renderHome(); showView('home'); toast('Importado!','ok');
+    } catch(err) { toast('Erro: '+err.message,'err'); }
+  };
+  reader.readAsText(file);
+}
+
+// ── UTILS ─────────────────────────────────────────
+function openOverlay(id) { document.getElementById(id).classList.add('open'); }
+function closeOverlay(id) { document.getElementById(id).classList.remove('open'); }
+document.querySelectorAll('.overlay').forEach(o=>o.addEventListener('click',e=>{ if(e.target===o) o.classList.remove('open'); }));
+
+function setLoading(btnId, loading) {
+  const btn = document.getElementById(btnId); if (!btn) return;
+  btn.disabled = loading; btn.textContent = loading ? '...' : (btn.dataset.label||'Salvar');
+}
+
+let toastTimer;
+function toast(msg, type='ok') {
+  const el = document.getElementById('toast');
+  document.getElementById('toastMsg').textContent = msg;
+  el.className = `show ${type}`; clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>el.className='', 3000);
+}
+
+// ── INIT ──────────────────────────────────────────
+window.addEventListener('DOMContentLoaded', () => {
+  try {
+    const saved = localStorage.getItem('av_gh');
+    if (saved) { GH = JSON.parse(saved); bootApp(); }
+  } catch { localStorage.removeItem('av_gh'); }
+});
+</script>
+</body>
+</html>
