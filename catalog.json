@@ -134,11 +134,11 @@
       "id": "19da643226eobiod",
       "created_at": "2026-04-19T05:34:46.118Z",
       "name": "Record of Ragnarok",
-      "description": "",
-      "genre": "",
+      "description": "The gods of the world—from Greek to Norse to Hindu mythology—gather every one thousand years to make one important decision: whether or not to wipe out mankind. Repulsed by humanity's selfishness, the council unanimously votes to destroy all humans. But before the decree is enacted, Brunhilde, one of the 13 Valkyries of Valhalla, interrupts the meeting to give mankind a chance at survival. \n\nBrunhilde proposes the idea of enacting Ragnarök, an event in which the strongest 13 mortal warriors fight against 13 gods in one-on-one matches. Although the trial is ridiculed by the gods, the demigod takes advantage of their pride and forces them into an agreement. However, Brunhilde herself must recruit the mightiest heroes throughout humanity's thousand-year history and guide them to victory before they meet their untimely demise.",
+      "genre": "Action, Drama, Fantasy",
       "rating": "14",
       "nsfw": false,
-      "cover_url": ""
+      "cover_url": "https://myanimelist.net/images/anime/1456/115123l.jpg"
     },
     {
       "id": "19da64323b0hdarh",
@@ -715,7 +715,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 1",
+      "title": "Ragnarok",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/1.mp4"
@@ -725,7 +725,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 2",
+      "title": "Worthy Opponent",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/2.mp4"
@@ -735,7 +735,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 3",
+      "title": "Killer Move",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/3.mp4"
@@ -745,7 +745,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 4",
+      "title": "Joy",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/4.mp4"
@@ -755,7 +755,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 5",
+      "title": "FILE No.00000000001",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/5.mp4"
@@ -765,7 +765,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 6",
+      "title": "Great Emulation",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/6.mp4"
@@ -775,7 +775,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 7",
+      "title": "Expelled from Paradise",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/7.mp4"
@@ -785,7 +785,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 8",
+      "title": "Grace Abounding",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/8.mp4"
@@ -795,7 +795,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 9",
+      "title": "Tyrant of the Ocean",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/9.mp4"
@@ -805,7 +805,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 10",
+      "title": "Greatest Loser",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/10.mp4"
@@ -815,7 +815,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 11",
+      "title": "The Swallow Gazes into the Abyss",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/11.mp4"
@@ -825,7 +825,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643226f7vh34",
-      "title": "EpisÃ³dio 12",
+      "title": "And Ragnarok Goes On",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/12.mp4"
@@ -835,7 +835,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 1",
+      "title": "Ragnarok",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/13.mp4"
@@ -845,7 +845,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 2",
+      "title": "Worthy Opponent",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/14.mp4"
@@ -855,7 +855,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 3",
+      "title": "Killer Move",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/15.mp4"
@@ -865,7 +865,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 4",
+      "title": "Joy",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/16.mp4"
@@ -875,7 +875,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 5",
+      "title": "FILE No.00000000001",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/17.mp4"
@@ -885,7 +885,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 6",
+      "title": "Great Emulation",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/18.mp4"
@@ -895,7 +895,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 7",
+      "title": "Expelled from Paradise",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/19.mp4"
@@ -905,7 +905,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 8",
+      "title": "Grace Abounding",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/20.mp4"
@@ -915,7 +915,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 9",
+      "title": "Tyrant of the Ocean",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/21.mp4"
@@ -925,7 +925,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da643227cjrszg",
-      "title": "EpisÃ³dio 10",
+      "title": "Greatest Loser",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/22.mp4"
@@ -935,7 +935,7 @@
       "number": 1,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 1",
+      "title": "Ragnarok",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/23.mp4"
@@ -945,7 +945,7 @@
       "number": 2,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 2",
+      "title": "Worthy Opponent",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/24.mp4"
@@ -955,7 +955,7 @@
       "number": 3,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 3",
+      "title": "Killer Move",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/25.mp4"
@@ -965,7 +965,7 @@
       "number": 4,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 4",
+      "title": "Joy",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/26.mp4"
@@ -975,7 +975,7 @@
       "number": 5,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 5",
+      "title": "FILE No.00000000001",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/27.mp4"
@@ -985,7 +985,7 @@
       "number": 6,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 6",
+      "title": "Great Emulation",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/28.mp4"
@@ -995,7 +995,7 @@
       "number": 7,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 7",
+      "title": "Expelled from Paradise",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/29.mp4"
@@ -1005,7 +1005,7 @@
       "number": 8,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 8",
+      "title": "Grace Abounding",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/30.mp4"
@@ -1015,7 +1015,7 @@
       "number": 9,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 9",
+      "title": "Tyrant of the Ocean",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/31.mp4"
@@ -1025,7 +1025,7 @@
       "number": 10,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 10",
+      "title": "Greatest Loser",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/32.mp4"
@@ -1035,7 +1035,7 @@
       "number": 11,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 11",
+      "title": "The Swallow Gazes into the Abyss",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/33.mp4"
@@ -1045,7 +1045,7 @@
       "number": 12,
       "created_at": "2026-04-19T05:35:07.318Z",
       "season_id": "19da6432287tmhc9",
-      "title": "EpisÃ³dio 12",
+      "title": "And Ragnarok Goes On",
       "description": "",
       "thumbnail_url": "",
       "url": "https://archive.org/download/RagnarokS01S02S03/34.mp4"
